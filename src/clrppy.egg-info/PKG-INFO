@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: clrppy
+Version: 0.0.1
+Summary: More Simple Printing With Color
+Home-page: https://github.com/s0rmayz/clrppy
+Author: s0rmayz
+Author-email: 2430545310@qq.com
+Project-URL: Github Page, https://github.com/s0rmayz/clrppy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# clrppy - More Simple Printing With Color
+
+### clrppy is a package that can make printing more simple.
+
+## Installation
+>pip install clrppy
+
+Then you can enjoy it.
+
+## Usage
+#### You can use function *colorprint()* with some arguments:
+
+```
+from clrppy import colorprint
+
+# Red Foreground
+colorprint('ERROR!', fore=Fore.RED)
+# Cyan with a flicker effect
+colorprint('GOT INFO', fore=Fore.Cyan, effect=FLICKER)
+```
+
+#### And there are also some useful functions:
+```
+showinfo(message)
+showwarning(message)
+showerror(message)
+clearscreen()
+*rprint(message, delay)
+*rrprint(message, delay)
+(* means for entertainment only)
+```
+
+## Contact
+You can just e-mail me.
+E-mail: <2430545310@qq.com>
+
+### Have fun!

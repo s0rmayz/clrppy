@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/clrppy/__init__.py
+src/clrppy.egg-info/PKG-INFO
+src/clrppy.egg-info/SOURCES.txt
+src/clrppy.egg-info/dependency_links.txt
+src/clrppy.egg-info/top_level.txt
